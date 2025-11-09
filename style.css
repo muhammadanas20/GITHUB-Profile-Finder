@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('background.png');
-    background-size: contain;
-    background-repeat: repeat;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: #333;
@@ -81,6 +80,7 @@ body {
     text-align: left;
     position: relative;
     background-image: url('infobackground.gif');
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     opacity: 0;
@@ -207,6 +207,9 @@ body {
 @media (max-width: 550px) {
     body {
         padding: 20px;
+        background-image: url(background2.png);
+        background-position: center;
+        background-size: cover;
     }
 
     .search-box {
