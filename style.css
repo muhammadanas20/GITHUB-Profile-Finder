@@ -41,14 +41,15 @@ body {
     margin-right: 10px;
     font-size: 1.1rem;
 }
-.search-box input::placeholder{
+
+.search-box input::placeholder {
     color: #ffffffc5;
 }
 
 .search-box input {
     flex-grow: 1;
     border: none;
-    color:#FFFFFF;
+    color: #FFFFFF;
     outline: none;
     font-size: 1rem;
     padding: 0.5rem 0;
@@ -208,25 +209,36 @@ body {
     body {
         padding: 20px;
         background-image: url(background2.png);
-        background-position: center;
+        background-position: overlay;
         background-size: cover;
     }
 
     .search-box {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
+        height: 50px;
+        width: 320px;
+        margin-top: 160px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .search-box input {
-        width: 100%;
+        width: 100px;
     }
 
     .search-box button {
-        width: 100%;
+        width: 100px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-right: auto;
+
     }
 
     .info-box {
         padding: 1.5rem;
+        
     }
 
     .user-details {
